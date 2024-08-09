@@ -7,10 +7,9 @@ import os
 # Hydra Configuration
 def load_config():
     # Initialize Hydra
-    # Adjust path to be one level up from src
-    config_path = os.path.join(os.path.dirname(__file__), '../conf')
+    config_path = 'conf'  # Relative path to the configuration directory
     initialize(config_path=config_path)
-    cfg = compose(config_name='conf.yaml')  # Ensure the correct config name
+    cfg = compose(config_name='conf')
     return cfg
 
 # Load Hydra config
