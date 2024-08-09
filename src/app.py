@@ -5,19 +5,20 @@ from hydra import initialize, compose
 import os
 
 # Hydra Configuration
-def load_config():
+#def load_config():
     # Initialize Hydra
-    config_path = os.path.join(os.path.dirname(__file__), '../conf')
-    initialize(config_path=config_path)
-    cfg = compose(config_name='config.yaml')
-    return cfg
+    #config_path = os.path.join(os.path.dirname(__file__), '../conf')
+    #initialize(config_path=config_path)
+    #cfg = compose(config_name='config.yaml')
+    #return cfg
 
 # Load Hydra config
-config = load_config()
+#config = load_config()
 
 # Load the model using PyCaret
-model_path = config.model.path
-model = pc.load_model(model_path)
+#model_path = config.model.path
+#model = pc.load_model(model_path)
+model = pc.load_model('models/mushroom-pipeline.pkl')
 
 # Streamlit UI
 st.title('Mushroom Species Prediction')
