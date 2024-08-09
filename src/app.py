@@ -6,9 +6,9 @@ import os
 
 # Hydra Configuration
 def load_config():
-    # Initialize Hydra
-    config_path = os.path.join(os.path.dirname(__file__), 'conf')
-    initialize(config_path=config_path)
+    # Use relative path for Hydra
+    config_path = 'conf'  # Assuming 'conf' is at the root of your project
+    initialize(config_path=config_path, job_name='app')
     cfg = compose(config_name='config')
     return cfg
 
