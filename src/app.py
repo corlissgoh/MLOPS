@@ -18,7 +18,7 @@ import os
 # Load the model using PyCaret
 #model_path = config.model.path
 #model = pc.load_model(model_path)
-model = pc.load_model('models/mushroom-pipeline.pkl')
+model = pc.load_model('models/mushroom-pipeline')
 
 # Streamlit UI
 st.title('Mushroom Species Prediction')
