@@ -1,0 +1,26 @@
+model:
+  path: models/mushroom-pipeline.pkl
+
+inputs:
+  cap_shape: ['convex', 'bell', 'conical', 'flat', 'knobbed', 'sunken']
+  cap_surface: ['smooth', 'scaly', 'fibrous', 'grooves']
+  cap_color: ['brown', 'buff', 'cinnamon', 'gray', 'green', 'pink', 'purple', 'red', 'white', 'yellow']
+  bruises: ['bruises', 'no']
+  odor: ['almond', 'anise', 'creosote', 'fishy', 'foul', 'musty', 'none', 'pungent', 'spicy']
+  gill_attachment: ['attached', 'free']
+  gill_spacing: ['close', 'crowded', 'distant']
+  gill_size: ['broad', 'narrow']
+  gill_color: ['black', 'brown', 'buff', 'chocolate', 'gray', 'green', 'orange', 'pink', 'purple', 'red', 'white', 'yellow']
+  stalk_shape: ['enlarging', 'tapering']
+  stalk_root: ['bulbous', 'club', 'equal', 'rhizomorph', 'rooted', 'missing']
+  stalk_surface_above_ring: ['fibrous', 'scaly', 'smooth']
+  stalk_surface_below_ring: ['fibrous', 'scaly', 'smooth']
+  stalk_color_above_ring: ['brown', 'buff', 'cinnamon', 'gray', 'orange', 'pink', 'red', 'white', 'yellow']
+  stalk_color_below_ring: ['brown', 'buff', 'cinnamon', 'gray', 'orange', 'pink', 'red', 'white', 'yellow']
+  veil_type: ['partial', 'universal']
+  veil_color: ['brown', 'orange', 'white', 'yellow']
+  ring_number: ['none', 'one', 'two']
+  ring_type: ['cobwebby', 'evanescent', 'flaring', 'large', 'none', 'pendant', 'sheathing']
+  spore_print_color: ['black', 'brown', 'buff', 'chocolate', 'green', 'orange', 'pink', 'purple', 'red', 'white', 'yellow']
+  population: ['abundant', 'clustered', 'numerous', 'scattered', 'several', 'solitary']
+  habitat: ['grasses', 'leaves', 'meadows', 'paths', 'urban', 'waste', 'woods']
