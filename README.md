@@ -19,7 +19,7 @@ The repository is organized as follows:
     ├── README.md
     └── poetry.lock
 
-/house_price_app
+/house_pricing_app
     ├── conf/
     ├── data/
     ├── logs/
@@ -34,13 +34,13 @@ The repository is organized as follows:
 ```
 
 - **mushroom_classification_app**: Contains the code and resources for the Mushroom Classification application.
-- **house_price_app**: Contains the code and resources for the House Price Prediction application.
+- **house_pricing_app**: Contains the code and resources for the House Price Prediction application.
 
 ## Deploying on Render
 
 To deploy an application on Render, follow these steps:
 
-1. **Choose the Application**: Decide whether you want to deploy the `mushroom_classification_app` or the `house_price_app`.
+1. **Choose the Application**: Decide whether you want to deploy the `mushroom_classification_app` or the `house_pricing_app`.
 
 2. **Set the Repository and Branch Settings**: In the Render dashboard, under the "Build & Deploy" settings, specify these items:
    - Repository: `https://github.com/corlissgoh/mlops`
@@ -85,7 +85,7 @@ After these steps, you can proceed with the cloning and other instructions for r
      ```
    - For House Price Prediction:
      ```bash
-     cd Downloads/house_price_app # just an example directory structure
+     cd Downloads/house_pricing_app # just an example directory structure
      ```
 
 2. **Clone this Repository**:
