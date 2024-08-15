@@ -90,7 +90,7 @@ After these steps, you can proceed with the cloning and other instructions for r
 
 2. **Clone this Repository**:
    - Replace 'your-username' with your actual GitHub username:
-     ```bash
+     ```
      `git clone https://github.com/your-username/https://github.com/corlissgoh/mlops`
      ```
      
